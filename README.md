@@ -23,28 +23,28 @@ Bash
 ### ⚙️ 3. `config.py` (Clean Version)
 # config.py - Configuration File
 
-# Get these from https://my.telegram.org
+### Get these from https://my.telegram.org
 API_ID = 12345678  # Enter your API ID (Integer)
 API_HASH = "YOUR_API_HASH_HERE"
 
-# Get this from @BotFather
+### Get this from @BotFather
 BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
 
-# Get these from https://console.groq.com/keys
-# You can add multiple keys for rotation
+### Get these from https://console.groq.com/keys
+### You can add multiple keys for rotation
 GROQ_API_KEY = [
     "gsk_key1_here",
     "gsk_key2_here"
 ]
 
-# Your Telegram User ID (To control the bot)
+### Your Telegram User ID (To control the bot)
 OWNER_ID = 123456789
 SUDO_USERS = [123456789]
 
-# --- 🤖 AI Character Settings ---
+### --- 🤖 AI Character Settings ---
 AI_MODEL = "llama-3.3-70b-versatile"
 
-# CUSTOMIZE YOUR BOT PERSONALITY HERE
+### CUSTOMIZE YOUR BOT PERSONALITY HERE
 AI_SYSTEM_PROMPT = (
     "You are Zoya, a virtual assistant. "
     "Personality: Helpful, Witty, and slightly savage. "
@@ -52,24 +52,24 @@ AI_SYSTEM_PROMPT = (
     "Language: Hinglish (Hindi + English)."
 )
 
-# --- 📂 File Paths ---
+### --- 📂 File Paths ---
 AI_ENABLED_FILE = "ai_enabled_groups.txt"
 USERS_DB_FILE = "users_db.txt"
 VOICE_DB_FILE = "voice_db.txt"
 DELETE_QUEUE_FILE = "pending_delete.txt"
 MEMORY_FILE = "zoya_memory.json"
 
-# --- ⚙️ Other Settings ---
+### --- ⚙️ Other Settings ---
 DELETE_TIME = 18000  # 5 Hours
 
-# Add Sticker File IDs here
+### Add Sticker File IDs here
 STICKERS = {
     "RANDOM": [
         "CAACAgUAAxkBAAEQXO9pekOrKYN8W3nSq6CV4vfXXSPVvAACOhYAAp91AAFUqrX-c6LGI1A4BA",
     ]
 }
 
-# --- 💰 Economy Settings ---
+### --- 💰 Economy Settings ---
 START_BALANCE = 130
 PROTECT_COST_PER_DAY = 150
 CHAT_REWARD_MIN = 3
