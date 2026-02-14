@@ -1,0 +1,22 @@
+# Ignore Database & Logs
+*.db
+*.sqlite
+*.log
+zoya_social.db
+zoya_memory.json
+
+# Ignore Sensitive Files
+*.session
+*.session-journal
+__pycache__/
+
+# Ignore Text Databases (User Data)
+users_db.txt
+voice_db.txt
+pending_delete.txt
+ai_enabled_groups.txt
+stickers.txt
+
+# Virtual Env
+venv/
+env/
